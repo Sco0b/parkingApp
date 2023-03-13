@@ -8,15 +8,16 @@ Parking management application.
 > Possibility to leave the parking lot and free the place
 > Possibility to see all the free and occupied places, with their number
 
-2 parts.
+2 parts :
 
 - FRONT : ReactJS / Typescript + Redux
 - BACK : NestJS / Typescript
   Management of front-end routes
 
-* BDD
++ BDD
 
 TODO :
 
 - Separate in front the TicketPage in 2 (logic in a TicketContainer.ts)
 - Fix test for PlacesSlice.ts
+- Finalize dev and prod build/config
