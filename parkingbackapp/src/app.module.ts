@@ -9,7 +9,7 @@ import { PlacesModule } from './places/places.module';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: 'localhost',
+      host: 'parking-db',
       port: 3306,
       username: 'root',
       password: 'password',
